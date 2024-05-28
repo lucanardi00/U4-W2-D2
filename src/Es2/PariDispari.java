@@ -4,7 +4,7 @@ import java.util.List;
 
 public class PariDispari {
 
-    public static <T> void pariDispari(List<T> lista, boolean pari) {
+    public static void pariDispari(List lista, boolean pari) {
         for (int i = 0; i < lista.size(); i++) {
             if (pari && i % 2 == 0) {
                 System.out.println("Posizione " + i + ": " + lista.get(i));

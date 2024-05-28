@@ -21,10 +21,10 @@ public class NumCasOrdinati {
         return numeriCasuali;
     }
 
-/*public static void main(String[] args) {
-    int n = 10;
-    List<Integer> numeriCasualiOrdinati = generaNumCasOrdinati(n);
+    public static void main(String[] args) {
+        int n = 10;
+        List<Integer> numeriCasualiOrdinati = generaNumCasOrdinati(n);
 
-    System.out.println(numeriCasualiOrdinati);
-}*/
+        System.out.println(numeriCasualiOrdinati);
+    }
 }

@@ -6,10 +6,10 @@ import java.util.List;
 
 public class NumCasInversi {
 
-    public static <T> List<T> creaListaNumInversi(List<T> lista) {
-        List<T> nuovaLista = new ArrayList<>(lista);
+    public static List creaListaNumInversi(List lista) {
+        List nuovaLista = new ArrayList<>(lista);
 
-        List<T> listaInvertita = new ArrayList<>(lista);
+        List listaInvertita = new ArrayList<>(lista);
         Collections.reverse(listaInvertita);
 
         nuovaLista.addAll(listaInvertita);
